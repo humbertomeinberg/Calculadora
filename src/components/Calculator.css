@@ -20,9 +20,19 @@ button:hover{
     background-color: #FF9500;
     color:white;
 }
+.orange:focus{
+    background-color: white;
+    color: #FF9500;
+}
 .gray{
     background-color: #505050;
     color:white;
+}
+.lighter-gray:focus{
+    background-color: white;
+}
+.gray:focus{
+    background-color: #929292;
 }
 .result{
     color:white;
@@ -32,15 +42,10 @@ button:hover{
     font-size: 3em;
 }
 .zero{
-    background-color: #505050;
-    color:white;
-    width: 6.5em;
-    text-align: start;
+    width:6.2em;
+    text-align:left;
     padding-left: 1em;
-}
-.equal{
-background-color: #FF9500;
-color: white;
-position:absolute; 
-right: 32.8em;
+    margin-left:10px;
+    background-color: #505050;
+    color:white
 }
